@@ -1,8 +1,8 @@
+from confidential import Secret
 
-# api_key = 'HKZFpfNlVjUznHLkSMQfnzvUuL9fumrK34mJA5Vk'
-# 
+
 class Config:
     
-    base_api_key = 'HKZFpfNlVjUznHLkSMQfnzvUuL9fumrK34mJA5Vk'
+    base_api_key = Secret.key
     base_url = 'https://api.nasa.gov/planetary/'
     base_api = 'apod'
